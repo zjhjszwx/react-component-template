@@ -1,6 +1,6 @@
 {
-  "name": "react-component-template",
-  "version": "1.0.0",
+  "name": "@yc/react-component-template",
+  "version": "1.0.3",
   "description": "",
   "main": "/dist/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "author": "yc",
   "license": "ISC",
+  "files": ["dist"],
   "peerDependencies": {
     "react-dom": ">=17.0.1",
     "react": ">=17.0.1"
