@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-env", // 根据目标环境来按需转码
+    "@babel/preset-react" // 让babel支持react语法
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-modules-commonjs",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread"
+  ]
+}
