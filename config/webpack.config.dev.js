@@ -14,8 +14,6 @@ const devConfig = {
       {
         test: /\.(le|c)ss$/i,
         use: ["style-loader", "css-loader", "less-loader"],
-        exclude: /node_modules/,
-
       },
     ],
   },
